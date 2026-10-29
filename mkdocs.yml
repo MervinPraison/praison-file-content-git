@@ -6,7 +6,7 @@ repo_name: MervinPraison/wp-git-posts
 repo_url: https://github.com/MervinPraison/wp-git-posts
 
 theme:
-  name: material
+  name: !ENV [PRAISONAI_THEME, material]
   palette:
     - scheme: slate
       primary: teal
