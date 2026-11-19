@@ -7,8 +7,9 @@ site:
   title: WP Git Posts
   ui: shadcn
   theme:
-    preset: teal
-    darkMode: true
+    preset: paper
+    radius: md
+    mode: system
   description: Git-based WordPress content loader - Markdown, JSON, YAML without database
     writes
 seo:
