@@ -16,20 +16,18 @@ seo:
   siteUrl: https://wpgit.praison.ai
 navigation:
   tabs:
-  - tab: Home
+  - tab: Docs
     groups:
-    - group: Home
+    - group: Get started
       pages:
       - index
-  - tab: Getting Started
-    groups:
+      icon: rocket
     - group: Getting Started
       pages:
       - getting-started/installation
       - getting-started/configuration
+      icon: rocket
       prefix: getting-started
-  - tab: Features
-    groups:
     - group: Features
       pages:
       - features/file-based-content
@@ -40,15 +38,19 @@ navigation:
       - features/deletion-handling
       - features/collaborative-editing
       - features/performance
+      icon: book-open
       prefix: features
-  - tab: Guides
-    groups:
     - group: Guides
       pages:
       - guides/deployment
       - guides/troubleshooting
+      icon: book-open
       prefix: guides
 navbar:
+  primary:
+    type: button
+    label: Quick start
+    href: /docs/getting-started/installation
   links:
   - label: GitHub
     href: https://github.com/MervinPraison/wp-git-posts
@@ -64,6 +66,8 @@ content:
     include:
     - '**/*.md'
     - '**/*.mdx'
+    nav:
+      mode: manual
 templates:
   docs:
     layout: ThreeColumnLayout

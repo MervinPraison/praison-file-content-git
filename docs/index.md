@@ -1,3 +1,20 @@
+---
+layout: home
+title: WP Git Posts
+description: Git-based WordPress content loader - Markdown, JSON, YAML without database
+  writes
+hero:
+  name: WP Git Posts
+  text: WP Git Posts
+  tagline: Git-based WordPress content loader - Markdown, JSON, YAML without database
+    writes
+  actions:
+  - text: Quick start
+    link: getting-started/installation.md
+  - text: View on GitHub
+    link: https://github.com/MervinPraison/wp-git-posts
+    theme: alt
+---
 # WP Git Posts
 
 Load WordPress content from files without database writes. Bidirectional Git sync keeps your content repository and WordPress site perfectly in sync.
